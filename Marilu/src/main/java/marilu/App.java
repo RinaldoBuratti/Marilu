@@ -1,4 +1,4 @@
-package agiw.Marilu;
+package marilu;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -8,8 +8,8 @@ import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.InetSocketTransportAddress;
 
-import agiw.Marilu.indexGenerator.IndexGenerator;
 import agiw.retrieve.*;
+import marilu.indexGenerator.IndexGenerator;
 
 /**
  * Hello world!

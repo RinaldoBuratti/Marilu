@@ -1,4 +1,4 @@
-package agiw.Marilu.indexGenerator;
+package marilu.indexGenerator;
 
 import java.io.File;
 import java.io.IOException;
