@@ -1,0 +1,13 @@
+curl -XPOST http://localhost:9200/pages -d '{
+"settings" : {
+"mappings" : {
+"html" : {
+"properties" : {
+"title" : { "type" : "string" },
+"text"  : { "type" : "string" },
+"html"  : { "type" : "string" , "index" : "no" }
+}
+}
+}
+}
+}'
